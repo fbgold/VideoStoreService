@@ -143,7 +143,7 @@ router.get('/:id', (req, res) => {
 
 	let whereClause;
 	if (movieId > 0) 
-		whereClause = {store_id: storeId}
+		whereClause = {film_id: movieId}
 	else
 		whereClause = null ;
 
